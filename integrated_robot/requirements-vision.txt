@@ -1,0 +1,7 @@
+# Camera + YOLO detector (lab PC). Versions of the vision team's working Windows environment.
+# The ZED Python API (pyzed) is NOT on PyPI: install the ZED SDK, then run its get_python_api.py.
+ultralytics==8.4.183
+torch==2.14.1
+torchvision==0.29.1
+numpy==2.5.4
+opencv-python==5.0.0.93

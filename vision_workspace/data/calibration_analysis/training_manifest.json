@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "type": "frozen_candidate_training_set",
+  "files": [
+    {
+      "path": "D:\\UR5_Waste_Sorting\\data\\tool_robot_observations\\20261022_135537_884841\\measurement.json",
+      "sha256": "e66606b094005d4b5399b2ba11ce7bee15d7da61225386f2eef96c44c0181c12"
+    },
+    {
+      "path": "D:\\UR5_Waste_Sorting\\data\\tool_robot_observations\\20261022_140845_363731\\measurement.json",
+      "sha256": "5d0ec9466c2f57e4cfc7068b89c5344f7916a3598109dfeb336c9b8ec0a94b1c"
+    },
+    {
+      "path": "D:\\UR5_Waste_Sorting\\data\\tool_robot_observations\\20261022_141157_963633\\measurement.json",
+      "sha256": "85c3d0ce02f1edd86b0d193d8dc037e924298caf52bed38fe539ecc120dec691"
+    },
+    {
+      "path": "D:\\UR5_Waste_Sorting\\data\\tool_robot_observations\\20261022_141341_479079\\measurement.json",
+      "sha256": "87c080a381e8a4b40f0975d9754b53b5f79a8f6219036268e0b5ee74f707e491"
+    },
+    {
+      "path": "D:\\UR5_Waste_Sorting\\data\\tool_robot_observations\\20261022_141514_491315\\measurement.json",
+      "sha256": "dce02e76139aa8c22632b55300e3e3fc56d1f9b8ec82cbc031ae1fb951150452"
+    },
+    {
+      "path": "D:\\UR5_Waste_Sorting\\data\\tool_robot_observations\\20261022_142108_972215\\measurement.json",
+      "sha256": "063fec0fea80521e29116b8d668d6620739c7ff4b279db191ea34cda0fd71fb7"
+    },
+    {
+      "path": "D:\\UR5_Waste_Sorting\\data\\tool_robot_observations\\20261022_142202_730080\\measurement.json",
+      "sha256": "c98c2082d549393e709ab2e128babcde030583300030158b7486d8ab3f96448a"
+    },
+    {
+      "path": "D:\\UR5_Waste_Sorting\\data\\tool_robot_observations\\20261022_142247_384002\\measurement.json",
+      "sha256": "41476fec5713d72bd0e0426f40f235b16d4499a4354bc5e56cecf63e2e7807d3"
+    }
+  ],
+  "robot_execution_enabled": false
+}

@@ -1,0 +1,123 @@
+{
+  "type": "manual_left_bottle_six_endpoint_review",
+  "source_session_sha256": "63c1742caf0acbaa4f7fd7fe6c0d54bbeae2caaf220ab301e0bc7d0fa5fe29bd",
+  "endpoints": [
+    {
+      "role": "PICK_APPROACH",
+      "record_id": "20261026_162518_390596",
+      "source_sha256": "b1f83b07ac5891d563a704a92583858cab429f20915be22bdd0babc86f85d097",
+      "active_tcp_flange_m_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "role": "PICK_GRASP",
+      "record_id": "20261026_162913_557700",
+      "source_sha256": "b4e5b3f98d1fff4865c3d6d6950ca6630d6985062256e239dece33c5cb253ea2",
+      "active_tcp_flange_m_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "role": "PICK_LIFT",
+      "record_id": "20261026_163248_405504",
+      "source_sha256": "130947905f59cabcb30c40f403c84d207c9e868952b447b577c7ed9f2188df53",
+      "active_tcp_flange_m_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "role": "LEFT_DROP_APPROACH",
+      "record_id": "20261026_163558_022402",
+      "source_sha256": "691961c885f82aebb3283d753647227b0528ea9f2a2cee7008241607635c0a1e",
+      "active_tcp_flange_m_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "role": "LEFT_DROP_RELEASE",
+      "record_id": "20261026_163738_643136",
+      "source_sha256": "abca0d765475b36d34682d6e6333e56417f1a5fe7e4f937bc1c8b99f7c6276bd",
+      "active_tcp_flange_m_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "role": "LEFT_DROP_RETREAT",
+      "record_id": "20261026_164023_724287",
+      "source_sha256": "324968c3810728435116d4f61104ebc35d18d05cf67568a62225c87b14da463b",
+      "active_tcp_flange_m_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "operator_events": [
+    {
+      "stage": "placement",
+      "user_report": "目前塑料瓶已到位",
+      "source": "user report in current chat",
+      "physical_placement_sensor_verified": false
+    },
+    {
+      "recorded_at_utc": "2026-10-26T15:31:51.749822+00:00",
+      "stage": "manual_gripper_closure",
+      "user_report": "夹住了，无滑动变形",
+      "interpreted_report": "Bottle held; no slip or visible deformation reported.",
+      "source": "user report in current chat",
+      "sensor_grasp_verified": false,
+      "robot_or_io_command_sent_by_assistant": false
+    },
+    {
+      "recorded_at_utc": "2026-10-26T15:33:14.974509+00:00",
+      "stage": "manual_lift",
+      "user_report": "已离桌，停稳",
+      "source": "user report in current chat",
+      "sensor_grasp_verified": false
+    },
+    {
+      "recorded_at_utc": "2026-10-26T15:39:27.245545+00:00",
+      "stage": "manual_left_release",
+      "user_report": "在 LEFT_CELL 内站稳，并已与两根夹指完全分离",
+      "source": "user report in current chat",
+      "sensor_release_verified": false,
+      "robot_or_io_command_sent_by_assistant": false
+    }
+  ],
+  "all_active_tcp_zero": true,
+  "mean_tcp_activation_confirmed": false,
+  "continuous_path_recorded": false,
+  "robot_execution_enabled": false,
+  "automatic_replay_enabled": false,
+  "trajectory": null,
+  "note": "One manual bottle placement trial with endpoint snapshots and operator outcomes. Not automatic sorting, collision-free trajectory approval, TCP validation or measured repeatability."
+}

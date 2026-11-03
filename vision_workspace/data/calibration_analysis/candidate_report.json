@@ -1,0 +1,89 @@
+{
+  "status": "candidate_fit_requires_independent_physical_validation",
+  "robot_execution_enabled": false,
+  "camera_to_base_calibrated": false,
+  "independent_physical_validation_passed": false,
+  "candidate_T_base_from_camera": [
+    [
+      -0.9675972229639568,
+      0.23461605833846824,
+      0.0933323056725729,
+      0.5723383354787619
+    ],
+    [
+      0.1813938475636679,
+      0.9030178758797736,
+      -0.3894290537538643,
+      0.4827172280583028
+    ],
+    [
+      -0.17564705001362024,
+      -0.35988056492578374,
+      -0.9163154985103169,
+      1.4404901073532608
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "candidate_feature_offset_flange_m": [
+    -0.0067352054337588545,
+    -0.010598819367434918,
+    0.10458648210028829
+  ],
+  "minimum_training_poses": 8,
+  "minimum_held_out_poses": 3,
+  "provisional_quality_thresholds_mm": {
+    "training_rms": 5.0,
+    "held_out_rms": 8.0,
+    "held_out_max": 15.0
+  },
+  "note": "Experimental fit only. Held-out residuals do not establish absolute accuracy or safe robot motion.",
+  "linear_rank": 15,
+  "linear_condition": 86.27281621715085,
+  "local_jacobian_rank": 9,
+  "local_jacobian_condition": 20.704360826785123,
+  "refinement_iterations": 35,
+  "training_rms_mm": 4.6010122203584505,
+  "held_out_rms_mm": 6.990855222789874,
+  "held_out_max_mm": 8.621015911557436,
+  "training_errors_mm": [
+    4.368949555152149,
+    5.078485166207105,
+    5.640117373917445,
+    4.025647772992646,
+    5.213041778248894,
+    3.2691682798945867,
+    4.068469894900949,
+    4.6950291503604005
+  ],
+  "held_out_errors_mm": [
+    6.628427981143187,
+    5.325241533442121,
+    8.621015911557436
+  ],
+  "records_seen": 11,
+  "accepted_observations": 11,
+  "distinct_robot_poses": 11,
+  "repeated_pose_records": 0,
+  "training_files": [
+    "D:\\UR5_Waste_Sorting\\data\\tool_robot_observations\\20261022_135537_884841\\measurement.json",
+    "D:\\UR5_Waste_Sorting\\data\\tool_robot_observations\\20261022_140845_363731\\measurement.json",
+    "D:\\UR5_Waste_Sorting\\data\\tool_robot_observations\\20261022_141157_963633\\measurement.json",
+    "D:\\UR5_Waste_Sorting\\data\\tool_robot_observations\\20261022_141341_479079\\measurement.json",
+    "D:\\UR5_Waste_Sorting\\data\\tool_robot_observations\\20261022_141514_491315\\measurement.json",
+    "D:\\UR5_Waste_Sorting\\data\\tool_robot_observations\\20261022_142108_972215\\measurement.json",
+    "D:\\UR5_Waste_Sorting\\data\\tool_robot_observations\\20261022_142202_730080\\measurement.json",
+    "D:\\UR5_Waste_Sorting\\data\\tool_robot_observations\\20261022_142247_384002\\measurement.json"
+  ],
+  "held_out_files": [
+    "D:\\UR5_Waste_Sorting\\data\\tool_robot_observations\\20261022_142836_881585\\measurement.json",
+    "D:\\UR5_Waste_Sorting\\data\\tool_robot_observations\\20261022_142916_632902\\measurement.json",
+    "D:\\UR5_Waste_Sorting\\data\\tool_robot_observations\\20261022_142948_670460\\measurement.json"
+  ],
+  "rejected_records": [],
+  "split_note": "Frozen manifest training set; all new distinct poses held out."
+}

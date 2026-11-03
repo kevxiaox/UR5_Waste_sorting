@@ -1,0 +1,2 @@
+Hi,I’m also sending you the four-object planning input package recorded yesterday. It contains six taught joint reference points for each object, their intended stages and destination cells, and the source records.
+Please use it as reference data for understanding and testing the state machine interfaces. The points were recorded during manual demonstrations with TCP set to zero. They are not validated trajectories, and the package does not execute robot motion. Please do not assume that an object detected by the camera is automatically at its taught position.

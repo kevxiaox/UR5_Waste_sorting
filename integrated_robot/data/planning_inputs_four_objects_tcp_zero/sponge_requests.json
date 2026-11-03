@@ -1,0 +1,308 @@
+{
+  "object_class": "sponge",
+  "target_zone": "RIGHT_CELL",
+  "waypoints": {
+    "pick_approach": {
+      "source_record_id": "20261026_155008_006086",
+      "source_path": "D:\\UR5_Waste_Sorting\\data\\taught_poses\\20261026_155008_006086\\pose.json",
+      "source_sha256": "b53188f9c034f39bb570460cb180336c7ab272b5a0cb4bdc7bf666b566a4fec5",
+      "joint_positions_rad": [
+        2.7681725025177,
+        -1.9467642943011683,
+        1.1761045455932617,
+        0.931625247001648,
+        1.5782235860824585,
+        3.1601274013519287
+      ],
+      "recorded_tcp_offset_flange_m_rotvec_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "status": "reference_only_not_approved_motion_goal"
+    },
+    "pick_grasp": {
+      "source_record_id": "20261026_155750_916653",
+      "source_path": "D:\\UR5_Waste_Sorting\\data\\taught_poses\\20261026_155750_916653\\pose.json",
+      "source_sha256": "ed2602af595ed81e156907b4d816e7a0e3810c69c4db7108813b2a0f32d66f1f",
+      "joint_positions_rad": [
+        2.7817113399505615,
+        -2.045255486165182,
+        1.3958969116210938,
+        0.8104313611984253,
+        1.5908538103103638,
+        3.1612415313720703
+      ],
+      "recorded_tcp_offset_flange_m_rotvec_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "status": "reference_only_not_approved_motion_goal"
+    },
+    "pick_lift": {
+      "source_record_id": "20261026_160615_154391",
+      "source_path": "D:\\UR5_Waste_Sorting\\data\\taught_poses\\20261026_160615_154391\\pose.json",
+      "source_sha256": "2b3c49237e7def583428d9425e9e039e6ecfe690122ddbc49942c3ba79214f14",
+      "joint_positions_rad": [
+        2.752850294113159,
+        -1.7784078756915491,
+        0.8118896484375,
+        1.1276837587356567,
+        1.5643339157104492,
+        3.159468412399292
+      ],
+      "recorded_tcp_offset_flange_m_rotvec_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "status": "reference_only_not_approved_motion_goal"
+    },
+    "drop_approach": {
+      "source_record_id": "20261026_160924_114581",
+      "source_path": "D:\\UR5_Waste_Sorting\\data\\taught_poses\\20261026_160924_114581\\pose.json",
+      "source_sha256": "e20eead216a045de27588e115b84544cf0869138a8aeba9003685521cefdbd79",
+      "joint_positions_rad": [
+        3.2210092544555664,
+        -1.3509352842914026,
+        0.5312414169311523,
+        0.9836040735244751,
+        1.5721184015274048,
+        3.160247325897217
+      ],
+      "recorded_tcp_offset_flange_m_rotvec_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "status": "reference_only_not_approved_motion_goal"
+    },
+    "drop_release": {
+      "source_record_id": "20261026_161217_611911",
+      "source_path": "D:\\UR5_Waste_Sorting\\data\\taught_poses\\20261026_161217_611911\\pose.json",
+      "source_sha256": "969cbe4cbf69e47020c6b038d792732f1f7e42b2374b82f609f0b63f35bf58c9",
+      "joint_positions_rad": [
+        3.2266461849212646,
+        -1.4983270804034632,
+        0.9637527465820312,
+        0.6983257532119751,
+        1.5755128860473633,
+        3.15889310836792
+      ],
+      "recorded_tcp_offset_flange_m_rotvec_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "status": "reference_only_not_approved_motion_goal"
+    },
+    "drop_retreat": {
+      "source_record_id": "20261026_161509_005356",
+      "source_path": "D:\\UR5_Waste_Sorting\\data\\taught_poses\\20261026_161509_005356\\pose.json",
+      "source_sha256": "8daf526479d44e09460902f0f84d00894a72180c962a51eb8012b98b786f4c9c",
+      "joint_positions_rad": [
+        3.2206385135650635,
+        -1.255512539540426,
+        0.3749823570251465,
+        1.0442661046981812,
+        1.572262167930603,
+        3.160750389099121
+      ],
+      "recorded_tcp_offset_flange_m_rotvec_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "status": "reference_only_not_approved_motion_goal"
+    }
+  },
+  "offline_planning_requests": [
+    {
+      "stage": "pick_approach",
+      "request_type": "offline_joint_goal_candidate",
+      "reference_start_joint_positions_rad": null,
+      "goal_joint_positions_rad": [
+        2.7681725025177,
+        -1.9467642943011683,
+        1.1761045455932617,
+        0.931625247001648,
+        1.5782235860824585,
+        3.1601274013519287
+      ],
+      "fresh_actual_start_state_required": true,
+      "joint_name_mapping_requires_driver_configuration": true,
+      "requires_contact_and_carried_object_model": false,
+      "plan_only": true,
+      "collision_checked": false,
+      "execution_authorized": false,
+      "incident_review_required": false,
+      "trajectory": null
+    },
+    {
+      "stage": "pick_grasp",
+      "request_type": "offline_joint_goal_candidate",
+      "reference_start_joint_positions_rad": [
+        2.7681725025177,
+        -1.9467642943011683,
+        1.1761045455932617,
+        0.931625247001648,
+        1.5782235860824585,
+        3.1601274013519287
+      ],
+      "goal_joint_positions_rad": [
+        2.7817113399505615,
+        -2.045255486165182,
+        1.3958969116210938,
+        0.8104313611984253,
+        1.5908538103103638,
+        3.1612415313720703
+      ],
+      "fresh_actual_start_state_required": true,
+      "joint_name_mapping_requires_driver_configuration": true,
+      "requires_contact_and_carried_object_model": true,
+      "plan_only": true,
+      "collision_checked": false,
+      "execution_authorized": false,
+      "incident_review_required": false,
+      "trajectory": null
+    },
+    {
+      "stage": "pick_lift",
+      "request_type": "offline_joint_goal_candidate",
+      "reference_start_joint_positions_rad": [
+        2.7817113399505615,
+        -2.045255486165182,
+        1.3958969116210938,
+        0.8104313611984253,
+        1.5908538103103638,
+        3.1612415313720703
+      ],
+      "goal_joint_positions_rad": [
+        2.752850294113159,
+        -1.7784078756915491,
+        0.8118896484375,
+        1.1276837587356567,
+        1.5643339157104492,
+        3.159468412399292
+      ],
+      "fresh_actual_start_state_required": true,
+      "joint_name_mapping_requires_driver_configuration": true,
+      "requires_contact_and_carried_object_model": true,
+      "plan_only": true,
+      "collision_checked": false,
+      "execution_authorized": false,
+      "incident_review_required": false,
+      "trajectory": null
+    },
+    {
+      "stage": "drop_approach",
+      "request_type": "offline_joint_goal_candidate",
+      "reference_start_joint_positions_rad": [
+        2.752850294113159,
+        -1.7784078756915491,
+        0.8118896484375,
+        1.1276837587356567,
+        1.5643339157104492,
+        3.159468412399292
+      ],
+      "goal_joint_positions_rad": [
+        3.2210092544555664,
+        -1.3509352842914026,
+        0.5312414169311523,
+        0.9836040735244751,
+        1.5721184015274048,
+        3.160247325897217
+      ],
+      "fresh_actual_start_state_required": true,
+      "joint_name_mapping_requires_driver_configuration": true,
+      "requires_contact_and_carried_object_model": true,
+      "plan_only": true,
+      "collision_checked": false,
+      "execution_authorized": false,
+      "incident_review_required": false,
+      "trajectory": null
+    },
+    {
+      "stage": "drop_release",
+      "request_type": "offline_joint_goal_candidate",
+      "reference_start_joint_positions_rad": [
+        3.2210092544555664,
+        -1.3509352842914026,
+        0.5312414169311523,
+        0.9836040735244751,
+        1.5721184015274048,
+        3.160247325897217
+      ],
+      "goal_joint_positions_rad": [
+        3.2266461849212646,
+        -1.4983270804034632,
+        0.9637527465820312,
+        0.6983257532119751,
+        1.5755128860473633,
+        3.15889310836792
+      ],
+      "fresh_actual_start_state_required": true,
+      "joint_name_mapping_requires_driver_configuration": true,
+      "requires_contact_and_carried_object_model": true,
+      "plan_only": true,
+      "collision_checked": false,
+      "execution_authorized": false,
+      "incident_review_required": false,
+      "trajectory": null
+    },
+    {
+      "stage": "drop_retreat",
+      "request_type": "offline_joint_goal_candidate",
+      "reference_start_joint_positions_rad": [
+        3.2266461849212646,
+        -1.4983270804034632,
+        0.9637527465820312,
+        0.6983257532119751,
+        1.5755128860473633,
+        3.15889310836792
+      ],
+      "goal_joint_positions_rad": [
+        3.2206385135650635,
+        -1.255512539540426,
+        0.3749823570251465,
+        1.0442661046981812,
+        1.572262167930603,
+        3.160750389099121
+      ],
+      "fresh_actual_start_state_required": true,
+      "joint_name_mapping_requires_driver_configuration": true,
+      "requires_contact_and_carried_object_model": false,
+      "plan_only": true,
+      "collision_checked": false,
+      "execution_authorized": false,
+      "incident_review_required": false,
+      "trajectory": null
+    }
+  ],
+  "placement_id": "manual_fixed_sponge_20261026",
+  "placement_registration_verified": false,
+  "operator_confirmation_of_current_placement_required": true,
+  "joint_limits_checked": false,
+  "robot_execution_enabled": false,
+  "incident_review_required": false,
+  "incident_evidence": []
+}

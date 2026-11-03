@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "frame": "UR_BASE",
+  "units": "metres, radians, seconds",
+  "simulation_only": true,
+  "validated_on_hardware": false,
+  "collision_geometry_measured": false,
+  "note": "REAL CELL profile (taught references of 2026-10-26). tcp_pose = 0 because the 24 references were recorded with TCP = 0 on the pendant; it must equal the pendant TCP (the executor refuses otherwise). Our UR5 model reproduces the 24 controller poses within ~2 mm. Radii: forearm/wrist_3 reduced so the 24 physically reached postures are valid (the old 50/45 mm capsules declared them all self-colliding); tool capsule = ASSUMED axial RG6 + quick changer, 200 mm, to measure. table_z_m = 0.35 is a VIRTUAL FLOOR, not the measured table: in the taught postures the lowest moving parts are the elbow (z 0.46) and the tool (0.57), so 0.35 keeps them valid and forbids diving lower; it must stay <= 0.38. The real object table/platform must be added as a box once measured (tools/teach_cell.py).",
+  "tcp_pose": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "joint_limits_rad": [
+    [
+      -6.2832,
+      6.2832
+    ],
+    [
+      -3.1416,
+      0.0
+    ],
+    [
+      -3.1416,
+      3.1416
+    ],
+    [
+      -6.2832,
+      6.2832
+    ],
+    [
+      -6.2832,
+      6.2832
+    ],
+    [
+      -6.2832,
+      6.2832
+    ]
+  ],
+  "max_joint_speed_rad_s": 0.5,
+  "max_joint_acceleration_rad_s2": 0.8,
+  "max_linear_speed_m_s": 0.05,
+  "max_linear_acceleration_m_s2": 0.25,
+  "collision": {
+    "link_radii_m": {
+      "base": 0.075,
+      "shoulder": 0.075,
+      "upper_arm": 0.06,
+      "elbow": 0.06,
+      "forearm": 0.032,
+      "wrist_1": 0.045,
+      "wrist_2": 0.045,
+      "wrist_3": 0.0375,
+      "tool": 0.045
+    },
+    "tool_capsule_flange_m": {
+      "start": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "end": [
+        0.0,
+        0.0,
+        0.2
+      ]
+    },
+    "environment_margin_m": 0.02,
+    "self_margin_m": 0.0,
+    "table_z_m": 0.35,
+    "max_held_object_length_m": 0.15,
+    "boxes": []
+  },
+  "planner": {
+    "motion_check_step_m": 0.02,
+    "rrt_step_rad": 0.25,
+    "rrt_max_iterations": 4000,
+    "shortcut_iterations": 150,
+    "seed": 0,
+    "linear_step_m": 0.005,
+    "linear_check_step_m": 0.004,
+    "jump_threshold_rad": 0.15,
+    "max_linear_distance_m": 0.3,
+    "approach_tool_table_margin_m": 0.003,
+    "max_linear_rotation_rad": 0.1
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "type": "portable_joint_reference_source_mapping",
+  "catalog_sha256": "e58bc31689e2ffa639eaf5b27fade0bcabec7bbbf60a373a528c3026957091b6",
+  "sources": [
+    {
+      "original_source_path": "D:\\UR5_Waste_Sorting\\data\\taught_poses\\20261026_155008_006086\\pose.json",
+      "relative_path": "evidence/poses/20261026_155008_006086/pose.json",
+      "sha256": "b53188f9c034f39bb570460cb180336c7ab272b5a0cb4bdc7bf666b566a4fec5"
+    },
+    {
+      "original_source_path": "D:\\UR5_Waste_Sorting\\data\\taught_poses\\20261026_155750_916653\\pose.json",
+      "relative_path": "evidence/poses/20261026_155750_916653/pose.json",
+      "sha256": "ed2602af595ed81e156907b4d816e7a0e3810c69c4db7108813b2a0f32d66f1f"
+    },
+    {
+      "original_source_path": "D:\\UR5_Waste_Sorting\\data\\taught_poses\\20261026_160615_154391\\pose.json",
+      "relative_path": "evidence/poses/20261026_160615_154391/pose.json",
+      "sha256": "2b3c49237e7def583428d9425e9e039e6ecfe690122ddbc49942c3ba79214f14"
+    },
+    {
+      "original_source_path": "D:\\UR5_Waste_Sorting\\data\\taught_poses\\20261026_160924_114581\\pose.json",
+      "relative_path": "evidence/poses/20261026_160924_114581/pose.json",
+      "sha256": "e20eead216a045de27588e115b84544cf0869138a8aeba9003685521cefdbd79"
+    },
+    {
+      "original_source_path": "D:\\UR5_Waste_Sorting\\data\\taught_poses\\20261026_161217_611911\\pose.json",
+      "relative_path": "evidence/poses/20261026_161217_611911/pose.json",
+      "sha256": "969cbe4cbf69e47020c6b038d792732f1f7e42b2374b82f609f0b63f35bf58c9"
+    },
+    {
+      "original_source_path": "D:\\UR5_Waste_Sorting\\data\\taught_poses\\20261026_161509_005356\\pose.json",
+      "relative_path": "evidence/poses/20261026_161509_005356/pose.json",
+      "sha256": "8daf526479d44e09460902f0f84d00894a72180c962a51eb8012b98b786f4c9c"
+    },
+    {
+      "original_source_path": "D:\\UR5_Waste_Sorting\\data\\taught_poses\\20261026_162518_390596\\pose.json",
+      "relative_path": "evidence/poses/20261026_162518_390596/pose.json",
+      "sha256": "b1f83b07ac5891d563a704a92583858cab429f20915be22bdd0babc86f85d097"
+    },
+    {
+      "original_source_path": "D:\\UR5_Waste_Sorting\\data\\taught_poses\\20261026_162913_557700\\pose.json",
+      "relative_path": "evidence/poses/20261026_162913_557700/pose.json",
+      "sha256": "b4e5b3f98d1fff4865c3d6d6950ca6630d6985062256e239dece33c5cb253ea2"
+    },
+    {
+      "original_source_path": "D:\\UR5_Waste_Sorting\\data\\taught_poses\\20261026_163248_405504\\pose.json",
+      "relative_path": "evidence/poses/20261026_163248_405504/pose.json",
+      "sha256": "130947905f59cabcb30c40f403c84d207c9e868952b447b577c7ed9f2188df53"
+    },
+    {
+      "original_source_path": "D:\\UR5_Waste_Sorting\\data\\taught_poses\\20261026_163558_022402\\pose.json",
+      "relative_path": "evidence/poses/20261026_163558_022402/pose.json",
+      "sha256": "691961c885f82aebb3283d753647227b0528ea9f2a2cee7008241607635c0a1e"
+    },
+    {
+      "original_source_path": "D:\\UR5_Waste_Sorting\\data\\taught_poses\\20261026_163738_643136\\pose.json",
+      "relative_path": "evidence/poses/20261026_163738_643136/pose.json",
+      "sha256": "abca0d765475b36d34682d6e6333e56417f1a5fe7e4f937bc1c8b99f7c6276bd"
+    },
+    {
+      "original_source_path": "D:\\UR5_Waste_Sorting\\data\\taught_poses\\20261026_164023_724287\\pose.json",
+      "relative_path": "evidence/poses/20261026_164023_724287/pose.json",
+      "sha256": "324968c3810728435116d4f61104ebc35d18d05cf67568a62225c87b14da463b"
+    },
+    {
+      "original_source_path": "D:\\UR5_Waste_Sorting\\data\\taught_poses\\20261026_170409_542505\\pose.json",
+      "relative_path": "evidence/poses/20261026_170409_542505/pose.json",
+      "sha256": "15d2c038a3487d8fc3021b774909815dc7a4368bcbec99d159e62c756ae03668"
+    },
+    {
+      "original_source_path": "D:\\UR5_Waste_Sorting\\data\\taught_poses\\20261026_170656_064298\\pose.json",
+      "relative_path": "evidence/poses/20261026_170656_064298/pose.json",
+      "sha256": "7e890f9eaa3e2eef88b66eaac6706a02607a61f4b5d00ccab3acd7776b63a974"
+    },
+    {
+      "original_source_path": "D:\\UR5_Waste_Sorting\\data\\taught_poses\\20261026_171004_976920\\pose.json",
+      "relative_path": "evidence/poses/20261026_171004_976920/pose.json",
+      "sha256": "327df369c775a1795a22c4eb9ad87e653b7cfd9b62d97c4a301d3083409b26c4"
+    },
+    {
+      "original_source_path": "D:\\UR5_Waste_Sorting\\data\\taught_poses\\20261026_171206_612807\\pose.json",
+      "relative_path": "evidence/poses/20261026_171206_612807/pose.json",
+      "sha256": "a0929cb133ce6994dee1e12d4f9e2f0c64c57c39dde8d732179a092b88e72f98"
+    },
+    {
+      "original_source_path": "D:\\UR5_Waste_Sorting\\data\\taught_poses\\20261026_171406_880618\\pose.json",
+      "relative_path": "evidence/poses/20261026_171406_880618/pose.json",
+      "sha256": "33f09275cca2423f98cefcb85b2489cabf4b8f20910d69c4dddfb42062408679"
+    },
+    {
+      "original_source_path": "D:\\UR5_Waste_Sorting\\data\\taught_poses\\20261026_172326_818653\\pose.json",
+      "relative_path": "evidence/poses/20261026_172326_818653/pose.json",
+      "sha256": "169a8384decba1a211c2062c6ca7fe3e058adb1d4f63fde2407ea01dc0e17372"
+    },
+    {
+      "original_source_path": "D:\\UR5_Waste_Sorting\\data\\taught_poses\\20261026_173214_215615\\pose.json",
+      "relative_path": "evidence/poses/20261026_173214_215615/pose.json",
+      "sha256": "f8aab1fe9ef68d2edb87d78d846a964474a1321906f4a1cf494b269edca2b8b4"
+    },
+    {
+      "original_source_path": "D:\\UR5_Waste_Sorting\\data\\taught_poses\\20261026_173556_062755\\pose.json",
+      "relative_path": "evidence/poses/20261026_173556_062755/pose.json",
+      "sha256": "91e12c4c8f0f495c8b51c16edaea6c0ed6f58c60aa378199cc23692db6b31782"
+    },
+    {
+      "original_source_path": "D:\\UR5_Waste_Sorting\\data\\taught_poses\\20261026_173914_782864\\pose.json",
+      "relative_path": "evidence/poses/20261026_173914_782864/pose.json",
+      "sha256": "9f5538e8bd01d91d491c877489bf2134cbb85813fd8cf42ed80791a44fb98d36"
+    },
+    {
+      "original_source_path": "D:\\UR5_Waste_Sorting\\data\\taught_poses\\20261026_174217_392430\\pose.json",
+      "relative_path": "evidence/poses/20261026_174217_392430/pose.json",
+      "sha256": "6743ca1439d7c2b73f0e009f1a948ff9671d3e3ec1af805582e5a5fd1f3a304c"
+    },
+    {
+      "original_source_path": "D:\\UR5_Waste_Sorting\\data\\taught_poses\\20261026_174426_739464\\pose.json",
+      "relative_path": "evidence/poses/20261026_174426_739464/pose.json",
+      "sha256": "7f58f8a13451ac84b270eed059cf9439e65fed317b20dcb761826247cbea49ec"
+    },
+    {
+      "original_source_path": "D:\\UR5_Waste_Sorting\\data\\taught_poses\\20261026_174834_523565\\pose.json",
+      "relative_path": "evidence/poses/20261026_174834_523565/pose.json",
+      "sha256": "97f3839590e6e65e1e01a93b5eab70d3816b51f3a04e66e4049db6cbebee69bc"
+    },
+    {
+      "original_source_path": "D:\\UR5_Waste_Sorting\\data\\manual_sessions\\20261026_fixed_sponge\\session.json",
+      "relative_path": "evidence/sessions/20261026_fixed_sponge.json",
+      "sha256": "2abf778dcee8b543bc95d2e68fb18c62e646645d0f511947212bf03f1f4a23a2"
+    },
+    {
+      "original_source_path": "D:\\UR5_Waste_Sorting\\data\\manual_sessions\\20261026_fixed_bottle\\session.json",
+      "relative_path": "evidence/sessions/20261026_fixed_bottle.json",
+      "sha256": "63c1742caf0acbaa4f7fd7fe6c0d54bbeae2caaf220ab301e0bc7d0fa5fe29bd"
+    },
+    {
+      "original_source_path": "D:\\UR5_Waste_Sorting\\data\\manual_sessions\\20261026_fixed_can\\session.json",
+      "relative_path": "evidence/sessions/20261026_fixed_can.json",
+      "sha256": "85afcc0a8143a80c0de8c416170d9ed941e241ec02851db8c5d77d8a45c03ce0"
+    },
+    {
+      "original_source_path": "D:\\UR5_Waste_Sorting\\data\\manual_sessions\\20261026_fixed_cup\\session.json",
+      "relative_path": "evidence/sessions/20261026_fixed_cup.json",
+      "sha256": "d947c0f5e70c0e8392bfb49ad42226cec74bebc85a4a28cf76e02995916dafcf"
+    },
+    {
+      "original_source_path": "D:\\UR5_Waste_Sorting\\config\\teaching_convention.json",
+      "relative_path": "evidence/teaching_convention.json",
+      "sha256": "ab12d4f77293f7146d8fadce13e66ad3afbdb4bc0270a77f269f3fc9f1c130ac"
+    },
+    {
+      "original_source_path": "D:\\UR5_Waste_Sorting\\config\\sorting_policy.json",
+      "relative_path": "evidence/sorting_policy.json",
+      "sha256": "9350018b30573c6bfafcc340dfb5b80cf96d47d4424595ac13c2c85fae217775"
+    }
+  ],
+  "robot_execution_enabled": false
+}

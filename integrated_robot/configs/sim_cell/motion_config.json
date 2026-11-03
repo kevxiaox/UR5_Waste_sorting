@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "frame": "UR_BASE",
+  "units": "metres, radians, seconds",
+  "simulation_only": true,
+  "validated_on_hardware": false,
+  "note": "Kinematics are UR's published UR5 values. Everything else (TCP, scene boxes, radii, margins, limits, speeds) is a PLACEHOLDER to measure and validate on the robot before any real use.",
+  "tcp_pose": [0.0, 0.0, 0.150, 0.0, 0.0, 0.0],
+  "joint_limits_rad": [[-6.2832, 6.2832], [-3.1416, 0.0], [-3.1416, 3.1416],
+                       [-6.2832, 6.2832], [-6.2832, 6.2832], [-6.2832, 6.2832]],
+  "max_joint_speed_rad_s": 0.5,
+  "max_joint_acceleration_rad_s2": 0.8,
+  "max_linear_speed_m_s": 0.05,
+  "max_linear_acceleration_m_s2": 0.25,
+  "collision": {
+    "link_radii_m": {"base": 0.075, "shoulder": 0.075, "upper_arm": 0.06, "elbow": 0.06,
+                     "forearm": 0.05, "wrist_1": 0.045, "wrist_2": 0.045, "wrist_3": 0.045,
+                     "tool": 0.05},
+    "environment_margin_m": 0.02,
+    "self_margin_m": 0.005,
+    "table_z_m": 0.0,
+    "max_held_object_length_m": 0.15,
+    "boxes": [
+      {"name": "SIM_ONLY_camera_mast", "min": [-0.45, 0.35, 0.0], "max": [-0.35, 0.45, 0.90]}
+    ]
+  },
+  "planner": {
+    "motion_check_step_m": 0.02,
+    "rrt_step_rad": 0.25,
+    "rrt_max_iterations": 4000,
+    "shortcut_iterations": 150,
+    "seed": 0,
+    "linear_step_m": 0.005,
+    "linear_check_step_m": 0.004,
+    "jump_threshold_rad": 0.15,
+    "max_linear_distance_m": 0.30,
+    "approach_tool_table_margin_m": 0.003
+  }
+}

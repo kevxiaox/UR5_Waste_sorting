@@ -1,0 +1,9 @@
+{
+  "type": "camera_reference_points_only",
+  "coordinate_frame": "ZED_IMAGE_CAMERA",
+  "units": "meters",
+  "resolution": "1280x720",
+  "depth_mode": "NEURAL",
+  "note": "Not calibrated to UR5. DO NOT use as robot motion commands.",
+  "points": []
+}

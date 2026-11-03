@@ -1,0 +1,129 @@
+{
+  "type": "manual_fixed_bottle_endpoint_session",
+  "created_at_utc": "2026-10-26T15:24:22.111148+00:00",
+  "object_class": "plastic_bottle",
+  "target_zone": "LEFT_CELL",
+  "min_confidence": 0.6,
+  "placement_basis": "User reports bottle is in position following upright fixed PICK_ZONE placement instruction.",
+  "endpoints": [
+    {
+      "role": "PICK_APPROACH",
+      "source_path": "D:\\UR5_Waste_Sorting\\data\\taught_poses\\20261026_162518_390596\\pose.json",
+      "source_sha256": "b1f83b07ac5891d563a704a92583858cab429f20915be22bdd0babc86f85d097",
+      "active_tcp_offset_flange_m_rotvec_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "role": "PICK_GRASP",
+      "source_path": "D:\\UR5_Waste_Sorting\\data\\taught_poses\\20261026_162913_557700\\pose.json",
+      "source_sha256": "b4e5b3f98d1fff4865c3d6d6950ca6630d6985062256e239dece33c5cb253ea2",
+      "active_tcp_offset_flange_m_rotvec_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "role": "PICK_LIFT",
+      "source_path": "D:\\UR5_Waste_Sorting\\data\\taught_poses\\20261026_163248_405504\\pose.json",
+      "source_sha256": "130947905f59cabcb30c40f403c84d207c9e868952b447b577c7ed9f2188df53",
+      "active_tcp_offset_flange_m_rotvec_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "role": "LEFT_DROP_APPROACH",
+      "source_path": "D:\\UR5_Waste_Sorting\\data\\taught_poses\\20261026_163558_022402\\pose.json",
+      "source_sha256": "691961c885f82aebb3283d753647227b0528ea9f2a2cee7008241607635c0a1e",
+      "active_tcp_offset_flange_m_rotvec_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "role": "LEFT_DROP_RELEASE",
+      "source_path": "D:\\UR5_Waste_Sorting\\data\\taught_poses\\20261026_163738_643136\\pose.json",
+      "source_sha256": "abca0d765475b36d34682d6e6333e56417f1a5fe7e4f937bc1c8b99f7c6276bd",
+      "active_tcp_offset_flange_m_rotvec_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "role": "LEFT_DROP_RETREAT",
+      "source_path": "D:\\UR5_Waste_Sorting\\data\\taught_poses\\20261026_164023_724287\\pose.json",
+      "source_sha256": "324968c3810728435116d4f61104ebc35d18d05cf67568a62225c87b14da463b",
+      "active_tcp_offset_flange_m_rotvec_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "operator_events": [
+    {
+      "stage": "placement",
+      "user_report": "目前塑料瓶已到位",
+      "source": "user report in current chat",
+      "physical_placement_sensor_verified": false
+    },
+    {
+      "recorded_at_utc": "2026-10-26T15:31:51.749822+00:00",
+      "stage": "manual_gripper_closure",
+      "user_report": "夹住了，无滑动变形",
+      "interpreted_report": "Bottle held; no slip or visible deformation reported.",
+      "source": "user report in current chat",
+      "sensor_grasp_verified": false,
+      "robot_or_io_command_sent_by_assistant": false
+    },
+    {
+      "recorded_at_utc": "2026-10-26T15:33:14.974509+00:00",
+      "stage": "manual_lift",
+      "user_report": "已离桌，停稳",
+      "source": "user report in current chat",
+      "sensor_grasp_verified": false
+    },
+    {
+      "recorded_at_utc": "2026-10-26T15:39:27.245545+00:00",
+      "stage": "manual_left_release",
+      "user_report": "在 LEFT_CELL 内站稳，并已与两根夹指完全分离",
+      "source": "user report in current chat",
+      "sensor_release_verified": false,
+      "robot_or_io_command_sent_by_assistant": false
+    }
+  ],
+  "active_tcp_offset_not_assumed": true,
+  "sponge_pick_height_reused": false,
+  "next_step": "Offline integration of both object-specific endpoint sets; do not replay historical Cartesian targets or assume continuous path validation.",
+  "robot_execution_enabled": false,
+  "automatic_replay_enabled": false,
+  "trajectory": null,
+  "capture_workflow": "Assistant executes read-only capture and archive after operator reports stationary at instructed endpoint; operator handles objects, all physical robot positioning and gripper controls.",
+  "capture_authorization_source": "User explicit request in current chat to directly operate terminal for subsequent acquisition.",
+  "manual_left_trial_status": "six_endpoints_recorded_and_operator_reported_grasp_lift_release_outcomes"
+}

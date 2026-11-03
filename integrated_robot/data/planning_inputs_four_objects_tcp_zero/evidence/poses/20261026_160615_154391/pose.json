@@ -1,0 +1,171 @@
+{
+  "type": "manually_positioned_posture_for_review",
+  "timestamp_utc": "2026-10-26T15:06:15.153313+00:00",
+  "label": "PICK_LIFT",
+  "label_purpose": "夹持后短距离抬升、物体离桌的候选位置，不表示夹持或路径已验证",
+  "label_scope": "operator_intent_only_not_physical_verification",
+  "actual_q_rad": [
+    2.752850294113159,
+    -1.7784078756915491,
+    0.8118896484375,
+    1.1276837587356567,
+    1.5643339157104492,
+    3.159468412399292
+  ],
+  "actual_q_deg": [
+    157.7267034840314,
+    -101.89526552995211,
+    46.51785028582892,
+    64.6115200010021,
+    89.62973111938261,
+    181.0242055353781
+  ],
+  "configured_tcp_pose_base_m_rotvec_rad": [
+    0.2276676198205141,
+    0.026946739446528416,
+    0.722126886732535,
+    -1.0788456986878159,
+    1.6278846106612772,
+    -1.3607121950779568
+  ],
+  "configured_tcp_offset_flange_m_rotvec_rad": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "T_base_from_flange": [
+    [
+      -0.3697354247780527,
+      -0.13998280321925577,
+      0.918531725345985,
+      0.2276676198205141
+    ],
+    [
+      -0.928796277195338,
+      0.0824568184914024,
+      -0.36130091136386144,
+      0.026946739446528416
+    ],
+    [
+      -0.025163289377063414,
+      -0.9867145929229764,
+      -0.1605027133121778,
+      0.722126886732535
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "bracket_joint_spread_deg": 0.0027593964246851515,
+  "snapshots": [
+    {
+      "controller_timestamp_s": 4566.152,
+      "actual_digital_output_bits": 65536,
+      "tool_output_0": true,
+      "tool_output_1": false,
+      "actual_q_rad": [
+        2.752826452255249,
+        -1.7784197966205042,
+        0.8119134902954102,
+        1.1276956796646118,
+        1.564357876777649,
+        3.1594204902648926
+      ],
+      "actual_qd_rad_s": [
+        0.0,
+        0.0,
+        -0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "safety_mode": 1,
+      "robot_status_bits": 1,
+      "runtime_state": 1,
+      "tool_output_voltage_v": 24,
+      "robot_ip": "147.250.35.40",
+      "controller_version": "3.15.5.0",
+      "received_at_utc": "2026-10-26T15:06:13.944856+00:00",
+      "host_sample_monotonic_s": 10779.0456233,
+      "request_duration_s": 0.10235049999937473,
+      "robot_execution_enabled": false
+    },
+    {
+      "controller_timestamp_s": 4566.7519999999995,
+      "actual_q_rad": [
+        2.752850294113159,
+        -1.7784078756915491,
+        0.8118896484375,
+        1.1276837587356567,
+        1.5643339157104492,
+        3.159468412399292
+      ],
+      "actual_tcp_pose_base_m_rotvec_rad": [
+        0.2276676198205141,
+        0.026946739446528416,
+        0.722126886732535,
+        -1.0788456986878159,
+        1.6278846106612772,
+        -1.3607121950779568
+      ],
+      "active_tcp_offset_flange_m_rotvec_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "robot_ip": "147.250.35.40",
+      "controller_version": "3.15.5.0",
+      "received_at_utc": "2026-10-26T15:06:14.544835+00:00",
+      "host_sample_monotonic_s": 10779.6455759,
+      "request_duration_s": 0.5997252999986813,
+      "robot_execution_enabled": false
+    },
+    {
+      "controller_timestamp_s": 4567.36,
+      "actual_digital_output_bits": 65536,
+      "tool_output_0": true,
+      "tool_output_1": false,
+      "actual_q_rad": [
+        2.7528622150421143,
+        -1.7784197966205042,
+        0.8119378089904785,
+        1.1276837587356567,
+        1.5643218755722046,
+        3.1594443321228027
+      ],
+      "actual_qd_rad_s": [
+        0.0,
+        0.0,
+        -0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "safety_mode": 1,
+      "robot_status_bits": 1,
+      "runtime_state": 1,
+      "tool_output_voltage_v": 24,
+      "robot_ip": "147.250.35.40",
+      "controller_version": "3.15.5.0",
+      "received_at_utc": "2026-10-26T15:06:15.152983+00:00",
+      "host_sample_monotonic_s": 10780.2537432,
+      "request_duration_s": 0.6080179000000498,
+      "robot_execution_enabled": false
+    }
+  ],
+  "robot_motion_commands_enabled": false,
+  "sorting_execution_enabled": false,
+  "tcp_verified": false,
+  "path_validated": false,
+  "automatic_replay_enabled": false,
+  "note": "Label is operator intent only; this record does not certify posture safety or a route. Endpoint checks do not observe continuous motion."
+}

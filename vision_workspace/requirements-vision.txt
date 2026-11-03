@@ -1,0 +1,4 @@
+-c requirements-vision-constraints.txt
+ultralytics==8.4.183
+torch==2.14.1
+torchvision==0.29.1

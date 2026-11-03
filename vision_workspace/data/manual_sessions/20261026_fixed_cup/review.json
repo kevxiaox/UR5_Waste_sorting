@@ -1,0 +1,121 @@
+{
+  "type": "manual_left_cup_six_endpoint_review",
+  "source_session_sha256": "d947c0f5e70c0e8392bfb49ad42226cec74bebc85a4a28cf76e02995916dafcf",
+  "endpoints": [
+    {
+      "role": "PICK_APPROACH",
+      "record_id": "20261026_173214_215615",
+      "source_sha256": "f8aab1fe9ef68d2edb87d78d846a964474a1321906f4a1cf494b269edca2b8b4",
+      "active_tcp_flange_m_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "role": "PICK_GRASP",
+      "record_id": "20261026_173556_062755",
+      "source_sha256": "91e12c4c8f0f495c8b51c16edaea6c0ed6f58c60aa378199cc23692db6b31782",
+      "active_tcp_flange_m_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "role": "PICK_LIFT",
+      "record_id": "20261026_173914_782864",
+      "source_sha256": "9f5538e8bd01d91d491c877489bf2134cbb85813fd8cf42ed80791a44fb98d36",
+      "active_tcp_flange_m_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "role": "LEFT_DROP_APPROACH",
+      "record_id": "20261026_174217_392430",
+      "source_sha256": "6743ca1439d7c2b73f0e009f1a948ff9671d3e3ec1af805582e5a5fd1f3a304c",
+      "active_tcp_flange_m_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "role": "LEFT_DROP_RELEASE",
+      "record_id": "20261026_174426_739464",
+      "source_sha256": "7f58f8a13451ac84b270eed059cf9439e65fed317b20dcb761826247cbea49ec",
+      "active_tcp_flange_m_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "role": "LEFT_DROP_RETREAT",
+      "record_id": "20261026_174834_523565",
+      "source_sha256": "97f3839590e6e65e1e01a93b5eab70d3816b51f3a04e66e4049db6cbebee69bc",
+      "active_tcp_flange_m_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "operator_events": [
+    {
+      "stage": "placement_and_approach",
+      "user_report": "夹爪也已在纸杯上方停稳，并保持张开，纸杯也摆好了",
+      "source": "user report in current chat"
+    },
+    {
+      "recorded_at_utc": "2026-10-26T16:37:56.234991+00:00",
+      "stage": "manual_gripper_closure",
+      "user_report": "夹稳，无滑动或明显压瘪",
+      "source": "user report in current chat",
+      "sensor_grasp_verified": false,
+      "robot_or_io_command_sent_by_assistant": false
+    },
+    {
+      "recorded_at_utc": "2026-10-26T16:39:40.597227+00:00",
+      "stage": "manual_lift",
+      "user_report": "已离桌，停稳",
+      "source": "user report in current chat",
+      "sensor_grasp_verified": false
+    },
+    {
+      "recorded_at_utc": "2026-10-26T16:46:18.644777+00:00",
+      "stage": "manual_left_release",
+      "user_report": "z很稳，分离",
+      "interpreted_report": "Cup placed stably and separated from fingers, in response to release outcome question.",
+      "source": "user report in current chat",
+      "sensor_release_verified": false,
+      "robot_or_io_command_sent_by_assistant": false
+    }
+  ],
+  "all_active_tcp_zero": true,
+  "continuous_path_recorded": false,
+  "robot_execution_enabled": false,
+  "automatic_replay_enabled": false,
+  "trajectory": null,
+  "note": "One manual paper-cup trial, not automatic sorting or physical path approval."
+}

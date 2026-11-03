@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "frame": "UR_BASE",
+  "units": "metres, radians in poses/joints, degrees for yaw",
+  "note": "PLACEHOLDER cell. Record the real values on the robot with tools/teach_cell.py; each taught entry gets measured=true.",
+  "observe": {
+    "joints": [0.5, -1.6, 1.4, -1.4, -1.5708, 0.0],
+    "measured": false,
+    "comment": "Arm parked out of the camera view; start and end of every cycle. null joints = no return move."
+  },
+  "pick_zone": {
+    "polygon_xy_m": [[-0.60, -0.35], [-0.40, -0.35], [-0.40, -0.10], [-0.60, -0.10]],
+    "surface_z_m": 0.0,
+    "measured": false
+  },
+  "approach_height_m": 0.12,
+  "tool_yaw_deg": 0.0,
+  "grasp": {
+    "default": {"grasp_height_m": 0.02, "held_object_length_m": 0.06},
+    "classes": {
+      "plastic_bottle": {"grasp_height_m": 0.03, "held_object_length_m": 0.10},
+      "aluminum_can":   {"grasp_height_m": 0.03, "held_object_length_m": 0.08},
+      "paper_cup":      {"grasp_height_m": 0.03, "held_object_length_m": 0.08},
+      "sponge":         {"grasp_height_m": 0.015, "held_object_length_m": 0.04},
+      "toothbrush":     {"grasp_height_m": 0.01, "held_object_length_m": 0.03}
+    }
+  },
+  "drop_zones": {
+    "LEFT_CELL": {"release_pose": [-0.20, -0.50, 0.15, 3.14159, 0.0, 0.0],
+                  "approach_height_m": 0.10, "measured": false},
+    "RIGHT_CELL": {"release_pose": [0.05, -0.55, 0.15, 3.14159, 0.0, 0.0],
+                   "approach_height_m": 0.10, "measured": false}
+  },
+  "gripper": {"settle_s": 0.8}
+}

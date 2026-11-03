@@ -1,0 +1,2 @@
+# Real UR5 connection (RTDE). The planner, state machine and simulation use the standard library only.
+ur_rtde

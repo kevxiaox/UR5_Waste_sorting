@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "recorded_tcp_offset_flange_m_rotvec_rad": [0, 0, 0, 0, 0, 0],
+  "endpoint_representation": "controller_joint_positions_rad",
+  "preserve_joint_revolutions": true,
+  "object_specific_pick_points": true,
+  "fixed_placement_only": true,
+  "temporary_mean_tcp_adopted": false,
+  "decision_source": "User confirmed continuing manual teaching with TCP=0 on 2026-10-26",
+  "robot_execution_enabled": false
+}

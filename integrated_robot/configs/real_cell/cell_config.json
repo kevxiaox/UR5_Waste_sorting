@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "frame": "UR_BASE",
+  "units": "metres, radians in poses/joints, degrees for yaw",
+  "note": "REAL CELL. The taught route (option A) uses the team's 24 taught references (taught_route.catalog_dir), not pick_zone/drop_zones. pick_zone is only used for measured positions (option B, max_pick_offset_m > 0): placeholder square of +-5 cm around the taught pick spot, to teach. drop_zones = taught release poses (TCP 0), used only by the geometric route.",
+  "taught_route": {
+    "catalog_dir": "data/planning_inputs_four_objects_tcp_zero",
+    "max_pick_offset_m": 0.0,
+    "max_path_deviation_m": 0.01,
+    "incident_reviewed": [],
+    "comment": "max_pick_offset_m = 0: fixed placement only (option A). Option B: set > 0 only with a validated camera->base transform and a measured pick_zone. incident_reviewed: add 'aluminum_can' only after the protective stop seen while teaching its retreat has been explained on site.",
+    "grasp_overrides": {
+      "sponge": "data/grasp_overrides/sponge.json",
+      "paper_cup": "data/grasp_overrides/paper_cup.json",
+      "plastic_bottle": "data/grasp_overrides/plastic_bottle.json"
+    },
+    "route_aliases": {
+      "aluminum_can": "plastic_bottle"
+    },
+    "route_aliases_comment": "2026-11-02, user decision: the can is put on the bottle's spot and handled exactly like the bottle (bottle's taught grasp AND drop, same LEFT_CELL bin). None of the can's own references are used, so the protective stop seen while teaching the can's retreat no longer applies. data/grasp_overrides/aluminum_can.json is kept but unused."
+  },
+  "observe": {
+    "joints": [
+      2.813551425933838,
+      -2.0391014258014124,
+      0.7920064926147461,
+      1.1528109312057495,
+      1.3508150577545166,
+      3.161205768585205
+    ],
+    "measured": true,
+    "taught_at_utc": "2026-11-02T14:59:15.332961+00:00",
+    "comment": "arm out of the camera view"
+  },
+  "pick_zone": {
+    "polygon_xy_m": [
+      [
+        0.16,
+        -0.03
+      ],
+      [
+        0.27,
+        -0.03
+      ],
+      [
+        0.27,
+        0.09
+      ],
+      [
+        0.16,
+        0.09
+      ]
+    ],
+    "surface_z_m": 0.5,
+    "measured": false
+  },
+  "approach_height_m": 0.08,
+  "tool_yaw_deg": 0.0,
+  "grasp": {
+    "default": {
+      "grasp_height_m": 0.0,
+      "held_object_length_m": 0.05
+    },
+    "classes": {
+      "plastic_bottle": {
+        "grasp_height_m": 0.0,
+        "held_object_length_m": 0.08
+      },
+      "aluminum_can": {
+        "grasp_height_m": 0.0,
+        "held_object_length_m": 0.06
+      },
+      "paper_cup": {
+        "grasp_height_m": 0.0,
+        "held_object_length_m": 0.06
+      },
+      "sponge": {
+        "grasp_height_m": 0.0,
+        "held_object_length_m": 0.03
+      }
+    }
+  },
+  "drop_zones": {
+    "LEFT_CELL": {
+      "release_pose": [
+        0.4462,
+        -0.0386,
+        0.633,
+        -1.0456,
+        1.51,
+        -1.4
+      ],
+      "approach_height_m": 0.08,
+      "measured": false
+    },
+    "RIGHT_CELL": {
+      "release_pose": [
+        0.4227,
+        0.1468,
+        0.6072,
+        -1.3531,
+        1.2746,
+        -1.0516
+      ],
+      "approach_height_m": 0.08,
+      "measured": false
+    }
+  },
+  "gripper": {
+    "settle_s": 5.0,
+    "comment": "RG6 measured on 2026-11-02 (RTDE trace): a close or open takes 4.07-4.15 s until the gripper reports ready again (tool digital input 1); 5.0 s keeps a margin. 0.8 s let the arm move while the fingers were still moving."
+  }
+}

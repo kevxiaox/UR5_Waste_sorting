@@ -1,0 +1,154 @@
+{
+  "type": "camera_reference_points_only",
+  "coordinate_frame": "ZED_IMAGE_CAMERA",
+  "units": "meters",
+  "resolution": "1280x720",
+  "depth_mode": "NEURAL",
+  "note": "Not calibrated to UR5. DO NOT use as robot motion commands.",
+  "points": [
+    {
+      "camera_xyz_m": [
+        -0.079685,
+        -0.258883,
+        1.10915
+      ],
+      "std_xyz_mm": [
+        0.0,
+        0.01,
+        0.03
+      ],
+      "valid_frames": 20,
+      "point_id": "P01",
+      "pixel_xy": [
+        588,
+        192
+      ]
+    },
+    {
+      "camera_xyz_m": [
+        0.064931,
+        -0.295185,
+        1.097817
+      ],
+      "std_xyz_mm": [
+        0.0,
+        0.01,
+        0.04
+      ],
+      "valid_frames": 20,
+      "point_id": "P02",
+      "pixel_xy": [
+        684,
+        166
+      ]
+    },
+    {
+      "camera_xyz_m": [
+        -0.046842,
+        -0.124892,
+        1.051359
+      ],
+      "std_xyz_mm": [
+        0.0,
+        0.0,
+        0.02
+      ],
+      "valid_frames": 20,
+      "point_id": "P03",
+      "pixel_xy": [
+        608,
+        276
+      ]
+    },
+    {
+      "camera_xyz_m": [
+        0.128059,
+        -0.043059,
+        0.984325
+      ],
+      "std_xyz_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "valid_frames": 20,
+      "point_id": "P04",
+      "pixel_xy": [
+        736,
+        331
+      ]
+    },
+    {
+      "camera_xyz_m": [
+        -0.185905,
+        -0.279759,
+        1.13868
+      ],
+      "std_xyz_mm": [
+        0.0,
+        0.0,
+        0.02
+      ],
+      "valid_frames": 20,
+      "point_id": "P05",
+      "pixel_xy": [
+        521,
+        183
+      ]
+    },
+    {
+      "camera_xyz_m": [
+        -0.070989,
+        0.201666,
+        0.918341
+      ],
+      "std_xyz_mm": [
+        0.0,
+        0.01,
+        0.02
+      ],
+      "valid_frames": 20,
+      "point_id": "P06",
+      "pixel_xy": [
+        584,
+        524
+      ]
+    },
+    {
+      "camera_xyz_m": [
+        0.254101,
+        -0.407024,
+        1.112814
+      ],
+      "std_xyz_mm": [
+        0.01,
+        0.02,
+        0.06
+      ],
+      "valid_frames": 20,
+      "point_id": "P07",
+      "pixel_xy": [
+        808,
+        95
+      ]
+    },
+    {
+      "camera_xyz_m": [
+        0.371581,
+        -0.165926,
+        0.996264
+      ],
+      "std_xyz_mm": [
+        0.01,
+        0.0,
+        0.02
+      ],
+      "valid_frames": 20,
+      "point_id": "P08",
+      "pixel_xy": [
+        914,
+        241
+      ]
+    }
+  ]
+}

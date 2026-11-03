@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "scheme": "three_cell_2026-10-22",
+  "coordinate_frame": "ZED_LEFT_IMAGE_PIXELS",
+  "image_size": [
+    1280,
+    720
+  ],
+  "source": {
+    "kind": "zed_live",
+    "serial_number": 16343130,
+    "view": "LEFT"
+  },
+  "saved_at_utc": "2026-10-22T09:52:48.322071+00:00",
+  "camera_pose_revalidated": true,
+  "zones": {
+    "LEFT_CELL": {
+      "purpose": "recyclable",
+      "polygon_px": [
+        [
+          682,
+          167
+        ],
+        [
+          709,
+          244
+        ],
+        [
+          608,
+          271
+        ],
+        [
+          589,
+          191
+        ]
+      ],
+      "physical_identity_confirmed": true,
+      "robot_target": {
+        "base_xyz_m": null,
+        "tcp_rotation_vector_rad": null,
+        "safe_approach_height_m": null,
+        "validated_area_base_m": null,
+        "reachable": false,
+        "collision_checked": false,
+        "human_validated": false
+      }
+    },
+    "MIDDLE_CELL": {
+      "purpose": "unused",
+      "polygon_px": [
+        [
+          709,
+          248
+        ],
+        [
+          735,
+          329
+        ],
+        [
+          627,
+          357
+        ],
+        [
+          608,
+          276
+        ]
+      ],
+      "physical_identity_confirmed": true,
+      "robot_target": {
+        "base_xyz_m": null,
+        "tcp_rotation_vector_rad": null,
+        "safe_approach_height_m": null,
+        "validated_area_base_m": null,
+        "reachable": false,
+        "collision_checked": false,
+        "human_validated": false
+      }
+    },
+    "RIGHT_CELL": {
+      "purpose": "residual",
+      "polygon_px": [
+        [
+          735,
+          331
+        ],
+        [
+          757,
+          417
+        ],
+        [
+          650,
+          445
+        ],
+        [
+          627,
+          358
+        ]
+      ],
+      "physical_identity_confirmed": true,
+      "robot_target": {
+        "base_xyz_m": null,
+        "tcp_rotation_vector_rad": null,
+        "safe_approach_height_m": null,
+        "validated_area_base_m": null,
+        "reachable": false,
+        "collision_checked": false,
+        "human_validated": false
+      }
+    },
+    "PICK_ZONE": {
+      "purpose": "pick",
+      "polygon_px": [
+        [
+          849,
+          83
+        ],
+        [
+          942,
+          305
+        ],
+        [
+          860,
+          325
+        ],
+        [
+          771,
+          97
+        ]
+      ],
+      "physical_identity_confirmed": true,
+      "robot_target": {
+        "base_xyz_m": null,
+        "tcp_rotation_vector_rad": null,
+        "safe_approach_height_m": null,
+        "validated_area_base_m": null,
+        "reachable": false,
+        "collision_checked": false,
+        "human_validated": false
+      }
+    }
+  }
+}

@@ -1,0 +1,4 @@
+* text=auto
+*.pt binary
+# Hash-verified evidence: never convert line endings
+data/** -text

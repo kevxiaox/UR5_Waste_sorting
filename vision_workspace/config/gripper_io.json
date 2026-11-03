@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "control_mode": "tool_digital_output",
+  "controlled_by": "User",
+  "tool_output_channel": 0,
+  "open_level": false,
+  "close_level": true,
+  "source": "User's latest correction relaying the onsite teacher: output 0 ON closes, OFF opens",
+  "software_execution_verified": false,
+  "robot_execution_enabled": false
+}

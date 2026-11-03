@@ -1,0 +1,16 @@
+{
+  "scheme": "three_cell_2026-10-22",
+  "min_confidence": 0.6,
+  "class_to_category": {
+    "plastic_bottle": "recyclable",
+    "aluminum_can": "recyclable",
+    "paper_cup": "recyclable",
+    "sponge": "residual",
+    "toothbrush": "residual"
+  },
+  "category_to_zone": {
+    "recyclable": "LEFT_CELL",
+    "residual": "RIGHT_CELL"
+  },
+  "robot_execution_enabled": false
+}
